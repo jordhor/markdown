@@ -34,7 +34,7 @@ Markdown | Rendered
 ```This text ***is emphasized and bold***.``` | This text ***is emphasized and bold***.
 ```This text ~~is strikethrough.~~``` | This text ~~is strikethrough.~~
 ```Indicate a `code block`.``` | Indicate a `code block`.
-<span class="code">&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; | <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
+```<kbd>Ctrl</kbd> + <kbd>Shift</kbd>``` | <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
 
 <br />
 
