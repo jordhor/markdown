@@ -10,7 +10,7 @@ Markdown was created by John Gruber in 2004. It’s meant to be an easy to read 
 - Sublime Package: [Sublime Text 3 Markdown Preview in Browser](https://github.com/facelessuser/MarkdownPreview)
 - Api Service: [GitHub Developer Markdown Rest Api service](https://developer.github.com/v3/markdown/)
 
-```<br />```
+<br />
 
 ### HTML Elements
 
