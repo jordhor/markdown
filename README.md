@@ -6,7 +6,7 @@
     }
 </style>-->
 <!--<link rel="stylesheet" type="text/css" href="styles.css" />-->
-<style> @import url("styles.css"); </style>
+
 <!-- Google fonts -->
 <!-- <link rel='stylesheet' type="text/css" href='https://fonts.googleapis.com/css?family=Open+Sans:300' /> -->
 
@@ -59,7 +59,7 @@ within that element's contents.--&gt;</pre>
 
 Markdown | Rendered
 :-- | :--
-<span class="code"><code>This text has \*emphasis\*.</code></span> | This text has *emphasis*.
+<span class="code">This text has \*emphasis\*.</span> | This text has *emphasis*.
 <span class="code">This text \*\*is bold\*\*.</span> | This text **is bold**.
 <span class="code">This text \*\*\*is emphasized and bold\*\*\*.</span> | This text ***is emphasized and bold***.
 <span class="code">This text \~\~is strikethrough.\~\~</span> | This text ~~is strikethrough.~~
