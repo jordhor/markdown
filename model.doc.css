@@ -1,0 +1,247 @@
+
+body {
+    padding-bottom: 0px;    
+}
+
+.entities-index {
+    line-height: 2;   
+}
+
+.entities-content {
+    margin-bottom: 90px;    
+    float: left;
+}
+
+.entity {
+    clear: both;
+    margin-right: 15px;
+}
+
+.expand-entities {
+    display: inline-block; 
+    margin-left: 20px;
+}
+
+.expand-entities:hover {
+    text-decoration:underline;
+}
+
+.entity-content {
+    padding-bottom: 20px;
+}
+
+/*
+    entity.removeClass("glyphicon-chevron-up").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-up");
+*/
+.entity-expanded { float: none; clear: both; }
+.entity-expanded h3 { padding-top: 40px; cursor: default; }
+.entity-expanded .entity-name { margin-right: 10px; text-decoration: none; }
+.entity-expanded .entity-name:hover { text-decoration: none; }
+.entity-expanded .glyphicon-hand-up { display: inline; }
+.entity-expanded .badge { display: inline; }
+.entity-expanded .btn-expand-collapse { margin-left: 10px; }
+/*
+    entity.find(".btn-expand-collapse").removeClass("glyphicon-chevron-up").removeClass("glyphicon-chevron-down").addClass("glyphicon-chevron-down");
+*/
+.entity-collapsed { float: left; clear: none; }
+.entity-collapsed h3 { padding-top: 0px; cursor: pointer; }
+.entity-collapsed .entity-name { margin-right: 2px; text-decoration: none; }
+.entity-collapsed .entity-name:hover { text-decoration: underline; }
+.entity-collapsed .glyphicon-hand-up { display: none; }
+.entity-collapsed .badge { display: none; }
+.entity-collapsed .btn-expand-collapse { margin-left: 2px; }
+
+.entity-name {
+    margin-right: 10px;
+}
+
+.glyphicon-lock {
+    font-size: 80%;
+    color: #d1728a;    
+    margin-right: 0px;        
+}
+
+.private {
+    color: #a7857e;
+}
+
+span.badge {
+    position: relative;
+    top:  -3px;
+    background-color: #999; 
+}
+        
+.entity-description {
+    padding: 15px 0px 0px;
+    /*
+    padding: 15px 15px;
+    margin-bottom: 20px;
+    border-left: 2px solid #ccf;
+    background-color: #fefefe;
+    */
+}
+
+.table {
+    margin-bottom: 15px;
+}
+        
+.campos {
+    width: 100%;
+    margin-top: 0px;
+    border: 0px;
+}
+.campos > thead tr > td {
+    background-color: #fff;
+    border: 0px;
+    color: #999;
+    font-size: 110%;
+    letter-spacing: 2px;
+    vertical-align: bottom;
+            
+}
+.campos tr > td:nth-child(1) {
+    min-width: 30%;
+} 
+.campos tr > td:nth-child(3) {
+    min-width: 5%;
+    max-width: 5%;
+    text-align: center;
+    font-size: 80%;
+} 
+.campos tbody tr {
+    background-color: #fbfbfb;
+}
+
+.parametros {
+    width: 100%;
+    margin-top: 0px;
+    border: 0px;
+}
+.parametros > thead tr > td {
+    background-color: #fff;
+    border: 0px;
+    color: #999;
+    font-size: 110%;
+    letter-spacing: 2px;
+    vertical-align: bottom;
+}
+        
+sup {
+    font-size: 70%;
+    margin-left: 2px;   
+}
+
+.cites {
+    background-color: #fff;
+    border: 0px;
+    color: #777;
+    font-size: 80%;
+}
+.cites sup {
+    margin-left: 10px;
+}
+        
+.apicalls {
+    width: 100%;
+    margin-top: 0px;
+    border: 0px;
+}
+.apicalls > thead tr > td {
+    background-color: #fff;
+    border: 0px;
+    color: #999;
+    font-size: 110%;
+    letter-spacing: 2px;
+    vertical-align: bottom;
+}
+.apicalls tr > td:nth-child(1) {
+    background-color: #fff;
+    font-style: italic;
+}
+.apicalls tr > td:nth-child(2) {
+    width: 50px;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.apicalls tr > td:not(:first-child){
+    vertical-align: middle;
+}
+
+.rowspan { display: none; }
+
+.layout {
+    float: left; 
+    margin-left: 2px;
+    margin-right: 8px;
+}
+
+.observaciones-content {
+    margin-top: 30px;
+    margin-bottom: 60px;   
+    
+}
+.observaciones-content > ul {
+    padding-left: 15px;
+}
+.observaciones-content > ul > li {
+    margin-top: 20px;
+}
+.notas sup {
+    color: #333;
+}
+        
+.novedad-asterisk {
+    color: orange; 
+    font-size: 80%; 
+    top: -2px; 
+    left: 2px;
+}
+        
+.actualizado-asterisk {
+    color: #8ac007;
+    font-size: 80%; 
+    top: -2px; 
+    left: 2px;
+}
+
+.campos .novedad-asterisk, .apicalls .novedad-asterisk, .parametros .novedad-asterisk, 
+.campos .actualizado-asterisk, .apicalls .actualizado-asterisk, .parametros .actualizado-asterisk {
+    font-size: 100%; 
+    top: 3px;            
+    float: right !important; 
+}
+
+.campos .push-notification, .apicalls .push-notification, .parametros .push-notification {
+    font-size: 100%; 
+    top: 3px;
+    color: #078ac0;
+    float: right !important; 
+}
+
+.apicalls code {
+    margin-right:10px; 
+}
+.apicalls td:nth-child(4) a > sup {
+    position:  relative;
+    left: -10px; 
+}
+
+h1:hover .btn-expand-collapse { display: inline; visibility: visible; }
+h3:hover .btn-expand-collapse { display: inline; visibility: visible; }
+.btn-expand-collapse { visibility: hidden; margin-left: 10px; font-size: 18px; cursor: pointer; color: #bbb; }
+.btn-expand-collapse:hover { color: #078ac0; }
+
+h1 {
+    clear: both;
+}
+
+a[href="#app_taxista"], a[href="#app_admin"], a[href="#usuario"] {
+    white-space: nowrap;
+}
+
+
+
+p, h1, h2, h3, h4, h5, h6, pre, div {
+    cursor: default;
+}
