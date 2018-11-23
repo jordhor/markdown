@@ -10,7 +10,7 @@ Markdown was created by John Gruber in 2004. It’s meant to be an easy to read 
 - Sublime Package: [Sublime Text 3 Markdown Preview in Browser](https://github.com/facelessuser/MarkdownPreview){:target="_blank"}
 - Api Service: [GitHub Developer Markdown Rest Api service](https://developer.github.com/v3/markdown/){:target="_blank"}
 
-<br />
+```<br />```
 
 ### HTML Elements
 
@@ -29,11 +29,11 @@ within that element's contents.--&gt;</pre>
 
 Markdown | Rendered
 :-- | :--
-```This text has \*emphasis\*.``` | This text has *emphasis*.
-```This text \*\*is bold\*\*.``` | This text **is bold**.
-```This text \*\*\*is emphasized and bold\*\*\*.``` | This text ***is emphasized and bold***.
-```This text \~\~is strikethrough.\~\~``` | This text ~~is strikethrough.~~
-```Indicate a \`code block\`.``` | Indicate a `code block`.
+```This text has *emphasis*.``` | This text has *emphasis*.
+```This text **is bold**.``` | This text **is bold**.
+```This text ***is emphasized and bold***.``` | This text ***is emphasized and bold***.
+```This text ~~is strikethrough.~~``` | This text ~~is strikethrough.~~
+```Indicate a `code block`.``` | Indicate a `code block`.
 <span class="code">&lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt; | <kbd>Ctrl</kbd> + <kbd>Shift</kbd>
 
 <br />
@@ -43,12 +43,12 @@ Markdown | Rendered
 
 Markdown | Rendered
 :-- | :--
-```\# This is a title``` | <h1>This is a title  &lt;h1&gt;</h1>
-```\## This is a title``` | <h2>This is a title  &lt;h2&gt;</h2>
-```\### This is a title``` | <h3>This is a title  &lt;h3&gt;</h3>
-```\#### This is a title``` | <h4>This is a title  &lt;h4&gt;</h4>
-```\##### This is a title``` | <h5>This is a title  &lt;h5&gt;</h5>
-```\###### This is a title``` | <h6>This is a title  &lt;h6&gt;</h6>
+```# This is a title``` | <h1>This is a title  &lt;h1&gt;</h1>
+```## This is a title``` | <h2>This is a title  &lt;h2&gt;</h2>
+```### This is a title``` | <h3>This is a title  &lt;h3&gt;</h3>
+```#### This is a title``` | <h4>This is a title  &lt;h4&gt;</h4>
+```##### This is a title``` | <h5>This is a title  &lt;h5&gt;</h5>
+```###### This is a title``` | <h6>This is a title  &lt;h6&gt;</h6>
 
 Another alternative for heading is type:
 <pre>This is an h1<br />=============</pre>
@@ -67,8 +67,8 @@ You can also use ```<br />```.
 
 Markdown | Rendered
 :-- | :--
-```\> This is a block quote.``` | <blockquote>This is a block quote.</blockquote>
-```\> You can also use more than one level<br />\>\> of indentation?``` | <blockquote>You can also use more than one level<blockquote>of indentation?</blockquote></blockquote>
+```> This is a block quote.``` | <blockquote>This is a block quote.</blockquote>
+```> You can also use more than one level```<br />```>> of indentation?``` | <blockquote>You can also use more than one level<blockquote>of indentation?</blockquote></blockquote>
 
 ###### Horizontal rules
 
@@ -77,7 +77,7 @@ To break up sections of a document you may want to include a horizontal rule. Th
 
 Markdown | Rendered
 :-- | :--
-```\-------``` | <hr />
+```-------``` | <hr />
 
 <br />
 
@@ -90,8 +90,8 @@ starting with ```#.``` to create numbered lists.
 
 Markdown | Rendered
 :-- | :--
-```* This is an unordered lists<br />* The asterisks are turned into bullets<br />&nbsp;&nbsp;&nbsp;&nbsp;* Indenting an item makes a sub list``` | <ul><li>This is an unordered lists</li><li>The asterisks are turned into bullets<ul><li>Indenting an item makes a sub list</li></ul></li></ul>
-```1. This is an ordered lists<br />1. The 1 are turned into numbers<br />&nbsp;&nbsp;&nbsp;&nbsp;1. Indenting an item makes a sub list``` | <ol><li>This is an ordered lists</li><li>The 1 are turned into numbers<ol><li>Indenting an item makes a sub list</li></ol></li></ol>
+```* This is an unordered lists```<br />```* The asterisks are turned into bullets```<br />```&nbsp;&nbsp;&nbsp;&nbsp;* Indenting an item makes a sub list``` | <ul><li>This is an unordered lists</li><li>The asterisks are turned into bullets<ul><li>Indenting an item makes a sub list</li></ul></li></ul>
+```1. This is an ordered lists```<br />```1. The 1 are turned into numbers<br />&nbsp;&nbsp;&nbsp;&nbsp;1. Indenting an item makes a sub list``` | <ol><li>This is an ordered lists</li><li>The 1 are turned into numbers<ol><li>Indenting an item makes a sub list</li></ol></li></ol>
 
 Boxes below without the 'x' are unchecked HTML checkboxes.
 
@@ -105,7 +105,7 @@ Boxes below without the 'x' are unchecked HTML checkboxes.
 - [ ] Second task that needs done
 - [x] This task has been completed
 
-<br />
+```<br />```
 
 
 ### Code blocks
@@ -114,7 +114,7 @@ Inline code can be created using the backtick character ``` ` ```:
 
 Markdown | Rendered
 :-- | :--
-```What the \`go_to()\` function did!``` | What the `go_to()` function did!
+```What the `go_to()` function did!``` | What the `go_to()` function did!
 
 You can indicate a code block (which uses the &lt;code&gt; element) by indenting a line with four spaces or a tab.
 
@@ -184,7 +184,7 @@ Images are done the same way as links but with an exclamation point in front!
 
 Markdown | Rendered
 :-- | :--
-```![This is the alt-attribute]\(https://static.com/ball8.png "An optional title")``` | ![This is the alt-attribute](https://github.global.ssl.fastly.net/images/icons/emoji/8ball.png?v5 "An optional title")
+```![This is the alt-attribute](https://static.com/ball8.png "An optional title")``` | ![This is the alt-attribute](https://github.global.ssl.fastly.net/images/icons/emoji/8ball.png?v5 "An optional title")
 
 ```html
 <img alt="This is the alt-attribute" src="https://static.com/ball8.png" title="An optional title" />
