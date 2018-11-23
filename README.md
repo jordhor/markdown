@@ -39,7 +39,7 @@ Markdown | Rendered
 <br />
 
 
-### Headings
+## Headings
 
 Markdown | Rendered
 :-- | :--
@@ -57,20 +57,20 @@ Another alternative for heading is type:
 <br />
 
 
-### Paragraphs
+## Paragraphs
 
 You can end a paragraph with two or more spaces and then begin a new paragraph. 
 
 You can also use ```<br />```.
 
-### Blockquotes
+#### Blockquotes
 
 Markdown | Rendered
 :-- | :--
 ```> This is a block quote.``` | <blockquote>This is a block quote.</blockquote>
 ```> You can also use more than one level```<br />```>> of indentation?``` | <blockquote>You can also use more than one level<blockquote>of indentation?</blockquote></blockquote>
 
-### Horizontal rules
+## Horizontal rules
 
 To break up sections of a document you may want to include a horizontal rule. Three or more dashes on a line will do it. Instead of `-` you could also use `*` or `_`.
 
@@ -82,7 +82,7 @@ Markdown | Rendered
 <br />
 
 
-### Lists
+## Lists
 
 Lists come in two varieties, unordered (bulleted) and ordered (numbered). 
 Use lines starting with asterisks (```*```) to create unordered lists, and lines 
@@ -120,7 +120,7 @@ starting with ```#.``` to create numbered lists.
 <br />
 
 
-### Code blocks
+## Code blocks
 
 Inline code can be created using the backtick character ``` ` ```:
 
@@ -161,7 +161,7 @@ var bar = function() {
 <br />
 
 
-### Links
+## Links
 
 Markdown | Rendered
 :-- | :--
@@ -190,7 +190,7 @@ Markdown | Rendered
 <br />
 
 
-### Images
+## Images
 
 Images are done the same way as links but with an exclamation point in front!
 
@@ -211,7 +211,7 @@ And reference style works as expected.
 <br />
 
 
-### Tables
+## Tables
 
 Tables are only available in GitHub Flavored Markdown and are slightly cumbersome, but if you really want it:
 
