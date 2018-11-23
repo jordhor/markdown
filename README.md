@@ -159,7 +159,7 @@ Markdown | Rendered
 ```Auto-link for email: <foo@bar.co>``` | Auto-link for email: <foo@bar.com>.
 ```Click this \[relative link]\(../img/ball.png).``` | Click this [relative link](../img/ball.png).
 
-Markdown also supports reference style links. Declare using ```:``` after link name (you can omit parenthesis for url):
+Markdown also supports reference style links. Declare using ```:``` after link name (you must omit parenthesis for url):
 
 [foo]: http://bar.biz/ "Cool!"
 
