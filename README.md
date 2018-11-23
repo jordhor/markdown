@@ -154,7 +154,7 @@ var bar = function() {
 Markdown | Rendered
 :-- | :--
 <span class="code">Click \[this link](http://test.com/).</span> | Click [this link](http://test.com/).
-<span class="code">Click \[this link](http://test.com/)\{:target="_blank"}.</span> | Click [this link](http://test.com/){:target="_blank"}.
+<span class="code">Click \[this link](http://test.com/){:target="_blank"}.</span> | Click [this link](http://test.com/){:target="_blank"}.
 <span class="code">Click \[this link](http://test.com/ "Link to Test.com").</span> | Click [this link](http://test.com/ "Link to Test.com").
 <span class="code">&lt;http://test.com/> equivalent to \[http://test.com/]\(http://test.com/) | [http://test.com/](http://test.com/)
 <span class="code">Auto-link for email: &lt;foo@bar.com&gt;</span> | Auto-link for email: <foo@bar.com>.
