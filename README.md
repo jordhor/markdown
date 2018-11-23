@@ -1,19 +1,19 @@
 
-<style type="text/css">
+<!--<style type="text/css">
     pre, .code {
         font-family: Consolas, Courier;
         font-size: 90%;
     }
-</style>
+</style>-->
 
 <!-- Google fonts -->
-<link rel='stylesheet' type="text/css" href='https://fonts.googleapis.com/css?family=Open+Sans:300' />
+<!-- <link rel='stylesheet' type="text/css" href='https://fonts.googleapis.com/css?family=Open+Sans:300' /> -->
 
 <!-- Material.Design Icons set -->
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+<!-- <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons" /> -->
 
 <!-- Font Awesome -->
-<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+<!-- <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" /> -->
 
 <!-- Ayudas y documentación -->
 <!-- <link type="text/css" rel="stylesheet" href="documents.css"> -->
