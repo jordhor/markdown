@@ -234,11 +234,11 @@ Tables are only available in GitHub Flavored Markdown and are slightly cumbersom
 or, for the same results
 
 <pre>Markdown | Less | Pretty
---- | --- | ---
+:-- | :-- | :--
 *Still* | `renders` | **nicely**</pre>
 
 Markdown | Less | Pretty
---- | --- | ---
+:-- | :-- | :--
 *Still* | `renders` | **nicely**
 
 
