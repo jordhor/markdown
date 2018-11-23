@@ -63,14 +63,14 @@ You can end a paragraph with two or more spaces and then begin a new paragraph.
 
 You can also use ```<br />```.
 
-###### Blockquotes
+### Blockquotes
 
 Markdown | Rendered
 :-- | :--
 ```> This is a block quote.``` | <blockquote>This is a block quote.</blockquote>
 ```> You can also use more than one level```<br />```>> of indentation?``` | <blockquote>You can also use more than one level<blockquote>of indentation?</blockquote></blockquote>
 
-###### Horizontal rules
+### Horizontal rules
 
 To break up sections of a document you may want to include a horizontal rule. Three or more dashes on a line will do it. Instead of `-` you could also use `*` or `_`.
 
@@ -179,7 +179,7 @@ Markdown | Rendered
 :-- | :--
 ```[foo]: http://bar.biz/ "Cool!"```<br />```Click [this link][foo] for more details.``` | Click [this link][foo] for more details.
 
-###### Bookmarks
+### Bookmarks
 
 You can bookmark any heading (paragraph starting with `#`) converting title in lowercase and replacing spaces by `-`.
 
