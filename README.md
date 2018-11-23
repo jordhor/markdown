@@ -39,7 +39,7 @@ Markdown | Rendered
 <br />
 
 
-## Headings
+### Headings
 
 Markdown | Rendered
 :-- | :--
@@ -70,7 +70,7 @@ Markdown | Rendered
 ```> This is a block quote.``` | <blockquote>This is a block quote.</blockquote>
 ```> You can also use more than one level```<br />```>> of indentation?``` | <blockquote>You can also use more than one level<blockquote>of indentation?</blockquote></blockquote>
 
-## Horizontal rules
+#### Horizontal rules
 
 To break up sections of a document you may want to include a horizontal rule. Three or more dashes on a line will do it. Instead of `-` you could also use `*` or `_`.
 
@@ -88,7 +88,7 @@ Lists come in two varieties, unordered (bulleted) and ordered (numbered).
 Use lines starting with asterisks (```*```) to create unordered lists, and lines 
 starting with ```#.``` to create numbered lists.
 
-**Unordered lists**
+#### Unordered lists
 ```
 * This is an unordered lists
 * The asterisks are turned into bullets
@@ -96,7 +96,7 @@ starting with ```#.``` to create numbered lists.
 ```
 <ul><li>This is an unordered lists</li><li>The asterisks are turned into bullets<ul><li>Indenting an item makes a sub list</li></ul></li></ul>
 
-**Ordered lists**
+#### Ordered lists
 
 ```
 1. This is an ordered lists
@@ -105,7 +105,7 @@ starting with ```#.``` to create numbered lists.
 ```
 <ol><li>This is an ordered lists</li><li>The 1 are turned into numbers<ol><li>Indenting an item makes a sub list</li></ol></li></ol>
 
-**With Boxes**
+#### With Boxes
 
 <pre>
 - [ ] First task to complete.
