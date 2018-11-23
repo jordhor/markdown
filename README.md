@@ -162,11 +162,11 @@ Click [this link](http://test.com/).
 
 Markdown | Rendered
 :-- | :--
-<span class="code">Click \[this link](http://test.com/).</span> | Click [this link](http://test.com/).
-<span class="code">Click \[this link](http://test.com/ "Link to Test.com").</span> | Click [this link](http://test.com/ "Link to Test.com").
-<span class="code">&lt;http://test.com/> equivalent to \[http://test.com/]\(http://test.com/) | [http://test.com/](http://test.com/)
-<span class="code">Auto-link for email: &lt;foo@bar.com&gt;</span> | Auto-link for email: <foo@bar.com>.
-<span class="code">Click this \[relative link]\(../img/ball.png).</span> | Click this [relative link](../img/ball.png).
+```Click \[this link](http://test.com/).``` | Click [this link](http://test.com/).
+```Click \[this link](http://test.com/ "Link to Test.com").``` | Click [this link](http://test.com/ "Link to Test.com").
+```&lt;http://test.com/> equivalent to \[http://test.com/]\(http://test.com/)``` | [http://test.com/](http://test.com/)
+```Auto-link for email: &lt;foo@bar.com&gt;``` | Auto-link for email: <foo@bar.com>.
+```Click this \[relative link]\(../img/ball.png).``` | Click this [relative link](../img/ball.png).
 
 Markdown also supports reference style links. Declare using ```:``` after link name (you can omit parenthesis for url):
 
