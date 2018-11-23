@@ -91,7 +91,7 @@ starting with ```#.``` to create numbered lists.
 Markdown | Rendered
 :-- | :--
 ```* This is an unordered lists```<br />```* The asterisks are turned into bullets```<br />&nbsp;&nbsp;&nbsp;&nbsp;```* Indenting an item makes a sub list``` | <ul><li>This is an unordered lists</li><li>The asterisks are turned into bullets<ul><li>Indenting an item makes a sub list</li></ul></li></ul>
-```1. This is an ordered lists```<br />```1. The 1 are turned into numbers```<br />```    1. Indenting an item makes a sub list``` | <ol><li>This is an ordered lists</li><li>The 1 are turned into numbers<ol><li>Indenting an item makes a sub list</li></ol></li></ol>
+```1. This is an ordered lists```<br />```1. The 1 are turned into numbers```<br />&nbsp;&nbsp;&nbsp;&nbsp;```1. Indenting an item makes a sub list``` | <ol><li>This is an ordered lists</li><li>The 1 are turned into numbers<ol><li>Indenting an item makes a sub list</li></ol></li></ol>
 
 Boxes below without the 'x' are unchecked HTML checkboxes.
 
