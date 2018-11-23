@@ -105,7 +105,7 @@ starting with ```#.``` to create numbered lists.
 ```
 <ol><li>This is an ordered lists</li><li>The 1 are turned into numbers<ol><li>Indenting an item makes a sub list</li></ol></li></ol>
 
-Boxes below without the 'x' are unchecked HTML checkboxes.
+**With Boxes**
 
 <pre>
 - [ ] First task to complete.
