@@ -161,7 +161,7 @@ Markdown | Rendered
 
 Markdown also supports reference style links. Declare using ```:``` after link name (you can omit parenthesis for url):
 
-[foo]:(http://bar.biz/ "Cool!")
+[foo]: http://bar.biz/ "Cool!"
 
 Markdown | Rendered
 :-- | :--
