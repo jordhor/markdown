@@ -88,10 +88,22 @@ Lists come in two varieties, unordered (bulleted) and ordered (numbered).
 Use lines starting with asterisks (```*```) to create unordered lists, and lines 
 starting with ```#.``` to create numbered lists.
 
-Markdown | Rendered
-:-- | :--
-```* This is an unordered lists```<br />```* The asterisks are turned into bullets```<br />&nbsp;&nbsp;&nbsp;&nbsp;```* Indenting an item makes a sub list``` | <ul><li>This is an unordered lists</li><li>The asterisks are turned into bullets<ul><li>Indenting an item makes a sub list</li></ul></li></ul>
-```1. This is an ordered lists```<br />```1. The 1 are turned into numbers```<br />&nbsp;&nbsp;&nbsp;&nbsp;```1. Indenting an item makes a sub list``` | <ol><li>This is an ordered lists</li><li>The 1 are turned into numbers<ol><li>Indenting an item makes a sub list</li></ol></li></ol>
+**Unordered lists**
+```
+* This is an unordered lists
+* The asterisks are turned into bullets
+    * Indenting an item makes a sub list
+```
+<ul><li>This is an unordered lists</li><li>The asterisks are turned into bullets<ul><li>Indenting an item makes a sub list</li></ul></li></ul>
+
+**Ordered lists**
+
+```
+1. This is an ordered lists
+1. The 1 are turned into numbers
+    1. Indenting an item makes a sub list
+```
+<ol><li>This is an ordered lists</li><li>The 1 are turned into numbers<ol><li>Indenting an item makes a sub list</li></ol></li></ol>
 
 Boxes below without the 'x' are unchecked HTML checkboxes.
 
