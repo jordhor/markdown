@@ -80,10 +80,10 @@ You can also use ```<br />```.
 
 To break up sections of a document you may want to include a horizontal rule. Three or more dashes on a line will do it. Instead of `-` you could also use `*` or `_`.
 
-
-Markdown | Rendered
-:-- | :--
-```-------``` | <hr />
+```
+-------
+```
+<hr />
 
 <br />
 
