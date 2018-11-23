@@ -165,7 +165,7 @@ Markdown also supports reference style links. Declare using ```:``` after link n
 
 Markdown | Rendered
 :-- | :--
-<pre><b>\[foo]</b>: http://bar.biz/ "Cool!"<br />Click \[this link]<b>\[foo]</b> for more details.</pre> | Click [this link][foo] for more details.
+```[foo]: http://bar.biz/ "Cool!"```<br />```Click [this link][foo] for more details.``` | Click [this link][foo] for more details.
 
 ###### Bookmarks
 
