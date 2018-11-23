@@ -5,6 +5,7 @@
         font-size: 90%;
     }
 </style>-->
+<link rel='stylesheet' type="text/css" href='styles.css' />
 
 <!-- Google fonts -->
 <!-- <link rel='stylesheet' type="text/css" href='https://fonts.googleapis.com/css?family=Open+Sans:300' /> -->
