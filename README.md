@@ -4,9 +4,9 @@
 
 Markdown was created by John Gruber in 2004. It’s meant to be an easy to read and write syntax which converts easily to HTML (and now many other formats as well).
 
+- Specifications: [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - Tutorial: [Learn X in Y minutes](https://learnxinyminutes.com/docs/markdown/)
 - Tutorial: [Five minutes to Markdown mastery](https://www.remarq.io/articles/five-minutes-to-markdown-mastery/)
-- Specifications: [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
 - Sublime Package: [Sublime Text 3 Markdown Preview in Browser](https://github.com/facelessuser/MarkdownPreview)
 - Api Service: [GitHub Developer Markdown Rest Api service](https://developer.github.com/v3/markdown/)
 
