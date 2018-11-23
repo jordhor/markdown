@@ -59,7 +59,7 @@ within that element's contents.--&gt;</pre>
 
 Markdown | Rendered
 :-- | :--
-<span class="code">This text has \*emphasis\*.</span> | This text has *emphasis*.
+<span class="code"><code>This text has \*emphasis\*.</code></span> | This text has *emphasis*.
 <span class="code">This text \*\*is bold\*\*.</span> | This text **is bold**.
 <span class="code">This text \*\*\*is emphasized and bold\*\*\*.</span> | This text ***is emphasized and bold***.
 <span class="code">This text \~\~is strikethrough.\~\~</span> | This text ~~is strikethrough.~~
