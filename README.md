@@ -4,11 +4,11 @@
 
 Markdown was created by John Gruber in 2004. It’s meant to be an easy to read and write syntax which converts easily to HTML (and now many other formats as well).
 
-- Tutorial: [Learn X in Y minutes](https://learnxinyminutes.com/docs/markdown/){:target="_blank"}
-- Tutorial: [Five minutes to Markdown mastery](https://www.remarq.io/articles/five-minutes-to-markdown-mastery/){:target="_blank"}
-- Specifications: [GitHub Flavored Markdown Spec](https://github.github.com/gfm/){:target="_blank"}
-- Sublime Package: [Sublime Text 3 Markdown Preview in Browser](https://github.com/facelessuser/MarkdownPreview){:target="_blank"}
-- Api Service: [GitHub Developer Markdown Rest Api service](https://developer.github.com/v3/markdown/){:target="_blank"}
+- Tutorial: [Learn X in Y minutes](https://learnxinyminutes.com/docs/markdown/)
+- Tutorial: [Five minutes to Markdown mastery](https://www.remarq.io/articles/five-minutes-to-markdown-mastery/)
+- Specifications: [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
+- Sublime Package: [Sublime Text 3 Markdown Preview in Browser](https://github.com/facelessuser/MarkdownPreview)
+- Api Service: [GitHub Developer Markdown Rest Api service](https://developer.github.com/v3/markdown/)
 
 ```<br />```
 
@@ -90,8 +90,8 @@ starting with ```#.``` to create numbered lists.
 
 Markdown | Rendered
 :-- | :--
-```* This is an unordered lists```<br />```* The asterisks are turned into bullets```<br />```&nbsp;&nbsp;&nbsp;&nbsp;* Indenting an item makes a sub list``` | <ul><li>This is an unordered lists</li><li>The asterisks are turned into bullets<ul><li>Indenting an item makes a sub list</li></ul></li></ul>
-```1. This is an ordered lists```<br />```1. The 1 are turned into numbers<br />&nbsp;&nbsp;&nbsp;&nbsp;1. Indenting an item makes a sub list``` | <ol><li>This is an ordered lists</li><li>The 1 are turned into numbers<ol><li>Indenting an item makes a sub list</li></ol></li></ol>
+```* This is an unordered lists```<br />```* The asterisks are turned into bullets```<br />&nbsp;&nbsp;&nbsp;&nbsp;```* Indenting an item makes a sub list``` | <ul><li>This is an unordered lists</li><li>The asterisks are turned into bullets<ul><li>Indenting an item makes a sub list</li></ul></li></ul>
+```1. This is an ordered lists```<br />```1. The 1 are turned into numbers```<br />&nbsp;&nbsp;&nbsp;&nbsp;```1. Indenting an item makes a sub list``` | <ol><li>This is an ordered lists</li><li>The 1 are turned into numbers<ol><li>Indenting an item makes a sub list</li></ol></li></ol>
 
 Boxes below without the 'x' are unchecked HTML checkboxes.
 
@@ -105,7 +105,7 @@ Boxes below without the 'x' are unchecked HTML checkboxes.
 - [ ] Second task that needs done
 - [x] This task has been completed
 
-```<br />```
+<br />
 
 
 ### Code blocks
@@ -120,7 +120,7 @@ You can indicate a code block (which uses the &lt;code&gt; element) by indenting
 
 <pre class="code">&nbsp;&nbsp;&nbsp;&nbsp;This is code<br />&nbsp;&nbsp;&nbsp;&nbsp;So is this</pre> 
 
-In GitHub Flavored Markdown, you can use a special syntax for code indicating one of the [supported languages](http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/){:target="_blank"}.
+In GitHub Flavored Markdown, you can use a special syntax for code indicating one of the [supported languages](http://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/).
 
 <pre style="padding-bottom: 6px;">```html
 &lt;div class="container"&gt;
