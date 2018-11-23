@@ -65,10 +65,16 @@ You can also use ```<br />```.
 
 #### Blockquotes
 
-Markdown | Rendered
-:-- | :--
-```> This is a block quote.``` | <blockquote>This is a block quote.</blockquote>
-```> You can also use more than one level```<br />```>> of indentation?``` | <blockquote>You can also use more than one level<blockquote>of indentation?</blockquote></blockquote>
+```
+> This is a block quote.
+```
+<blockquote>This is a block quote.</blockquote>
+
+```
+> You can also use more than one level
+>> of indentation?
+```
+<blockquote>You can also use more than one level<blockquote>of indentation?</blockquote></blockquote>
 
 #### Horizontal rules
 
