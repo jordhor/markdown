@@ -174,7 +174,7 @@ Markdown | Rendered
 ```Click [this link](http://test.com/).``` | Click [this link](http://test.com/).
 ```Click [this link](http://test.com/ "Link to Test.com").``` | Click [this link](http://test.com/ "Link to Test.com").
 ```<http://test.com/>``` equivalent to ```[http://test.com/](http://test.com/)``` | [http://test.com/](http://test.com/)
-```Auto-link for email: <foo@bar.co>``` | Auto-link for email: <foo@bar.com>.
+Auto-link for email: ```<foo@bar.co>``` | <foo@bar.com>.
 ```Click this [relative link](../img/ball.png).``` | Click this [relative link](../img/ball.png).
 
 Markdown also supports reference style links. Declare using ```:``` after link name (you must omit parenthesis for url):
