@@ -1,6 +1,6 @@
 # Markdown guide
 
-[Text styles](#text-style) | [Headings](#headings) | [Paragraphs](#paragraphs) | [Lists](#lists) | [Code blocks](#code-blocks) | [Links](#links) | [Images](#images) | [Tables](#tables)
+[Text styles](#text-styles) | [Headings](#headings) | [Paragraphs](#paragraphs) | [Lists](#lists) | [Code blocks](#code-blocks) | [Links](#links) | [Images](#images) | [Tables](#tables)
 
 Markdown was created by John Gruber in 2004. It’s meant to be an easy to read and write syntax which converts easily to HTML (and now many other formats as well).
 
